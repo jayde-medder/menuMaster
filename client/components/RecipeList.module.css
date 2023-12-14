@@ -1,0 +1,104 @@
+.recipe-list-header{
+  margin: 0px 30px;
+  padding: 20px 10px 0;
+}
+
+.recipe-list-header hr{
+  height: 0.5px;
+  background-color: #999;
+  border: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav button{
+  width: 160px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  margin: 0;
+  padding: 8px 20px 8px 20px;
+  align-items: center;
+}
+
+.button-link{
+  text-decoration: none;
+}
+
+.nav h2{
+  font-size: larger;
+  font-weight: 600;
+  margin: 0;
+}
+
+img{
+  height:25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.all-recipes{
+  margin: 30px;
+  margin-top: 10px;
+  padding: 0px;
+ 
+}
+
+.all-recipes ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+.recipe{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(234, 234, 234);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.info{
+  align-items: center;
+}
+
+.recipe-title-link{
+  color: #444;
+  width:40%;
+}
+
+.recipe-title:hover{
+  background-color: rgb(204, 228, 219);
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.recipe-title{
+  font-weight: 500;
+  font-size: 16px;
+  margin:0;
+  padding: 5px 5px;
+}
+
+.recipe-description{
+  padding: 0px 5px;
+  margin: 0px;
+}
+
+.recipe .buttons{
+  align-items: center;
+  padding: 5px;
+}
+
+.recipe button{
+  width: 100px;
+  margin: 5px;
+  padding: 5px 25px;
+}
